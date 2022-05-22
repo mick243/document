@@ -1,5 +1,5 @@
 
-jQuery(function($){
+jQuery(function($)
 	$('#header .gnb > li').mouseenter(function(){
 		if($(this).hasClass('parent')){
 			if(!$('#header .depth2_bg').hasClass('on')){
